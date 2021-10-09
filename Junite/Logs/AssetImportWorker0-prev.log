@@ -1,0 +1,1099 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'ja' Physical Memory: 16311 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GitHub/Junite/Junite
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55476
+Successfully changed project path to: D:/GitHub/Junite/Junite
+D:/GitHub/Junite/Junite
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Junite/Junite/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   
+    VRAM:     8011 MB
+    Driver:   27.21.14.6663
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001843 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.569 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1569ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (332ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (130ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001744 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1483 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1921.
+Total: 2.908100 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.046800 ms MarkObjects: 2.500200 ms  DeleteObjects: 0.093400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Mobile/FireShieldMobile.prefab
+  artifactKey: Guid(ac6a2e62843acb547b5c7ba7da5d6118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Mobile/FireShieldMobile.prefab using Guid(ac6a2e62843acb547b5c7ba7da5d6118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f37cef89a2b55c9a8afdac8b53cd2d') in 0.104437 seconds 
+  Import took 0.107218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.365234 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Mobile/FrozenEffect1Mobile.prefab
+  artifactKey: Guid(3954408360eeb364f9677fb0e395342f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Mobile/FrozenEffect1Mobile.prefab using Guid(3954408360eeb364f9677fb0e395342f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b698a1465ceac43fd0207f75ab8aee43') in 0.098459 seconds 
+  Import took 0.101003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.782678 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/FireShield.prefab
+  artifactKey: Guid(cdcef964cb1147842be1b5c01ac964f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/FireShield.prefab using Guid(cdcef964cb1147842be1b5c01ac964f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a4fb49d6b43bd960476deb0441b979') in 0.037609 seconds 
+  Import took 0.040205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.691736 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/FrozenEffect2.prefab
+  artifactKey: Guid(d3b4758fd192acc41ae74fc5081e3442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/FrozenEffect2.prefab using Guid(d3b4758fd192acc41ae74fc5081e3442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc856bf9b746b50e1e0d2e099c4b499') in 0.017927 seconds 
+  Import took 0.020594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.188973 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/FrozenEffect1.prefab
+  artifactKey: Guid(12caa16c1df3e1a4aa82b342c9b163c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/FrozenEffect1.prefab using Guid(12caa16c1df3e1a4aa82b342c9b163c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e45a6550b1a0af19916819feaf4e2ad') in 0.111421 seconds 
+  Import took 0.114096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.703357 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Mobile/Teleport3Mobile.prefab
+  artifactKey: Guid(95a7ebd4e674246409b2032f13c6d540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Mobile/Teleport3Mobile.prefab using Guid(95a7ebd4e674246409b2032f13c6d540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa11d5736eab8eebabc3ab92e4c1384') in 0.047771 seconds 
+  Import took 0.050659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.459542 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Mobile/Teleport1Mobile.prefab
+  artifactKey: Guid(e6f636c25af361c4a97c373d392b8022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Mobile/Teleport1Mobile.prefab using Guid(e6f636c25af361c4a97c373d392b8022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c053ca5ba75e2b6d4aad703b40e0fb0c') in 0.017719 seconds 
+  Import took 0.020810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.365671 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Heal.prefab
+  artifactKey: Guid(d1ec698f49b315f44845eaf9e7f4b14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Heal.prefab using Guid(d1ec698f49b315f44845eaf9e7f4b14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa13c53b8fd30a39462397a61fe81d7c') in 0.019501 seconds 
+  Import took 0.022171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.393667 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/RadiationAura.prefab
+  artifactKey: Guid(fe1ddb43b94a0c84dacc624c876476a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/RadiationAura.prefab using Guid(fe1ddb43b94a0c84dacc624c876476a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d207502d2e72de73cb90a6f0d042bc') in 0.014882 seconds 
+  Import took 0.017693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.559417 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/IgnitedEffect.prefab
+  artifactKey: Guid(1f8f15e5445026d49aaa96a0e2c9886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/IgnitedEffect.prefab using Guid(1f8f15e5445026d49aaa96a0e2c9886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef0a87ddd041002c04c9e442d04f36f') in 0.017108 seconds 
+  Import took 0.020100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.973351 seconds.
+  path: Assets/KriptoFX
+  artifactKey: Guid(c636a5af2c0f423479191098bdea5b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX using Guid(c636a5af2c0f423479191098bdea5b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c5ff7609b728b75dba6cb58814d461') in 0.004863 seconds 
+  Import took 0.007221 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.769 seconds
+Domain Reload Profiling:
+	ReloadAssembly (769ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (620ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1936.
+Total: 2.614100 ms (FindLiveObjects: 0.152100 ms CreateObjectMapping: 0.033900 ms MarkObjects: 2.409700 ms  DeleteObjects: 0.017000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 104.799194 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Mobile/FrozenEffect2Mobile.prefab
+  artifactKey: Guid(90772cc2306358f46897cb6bbb2ae11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Mobile/FrozenEffect2Mobile.prefab using Guid(90772cc2306358f46897cb6bbb2ae11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b29f89efa4af04f958cb6e5d51844e') in 0.053165 seconds 
+  Import took 0.055769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.842742 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Mobile/HealMobile.prefab
+  artifactKey: Guid(eaf4cc557f8b6214e97aca4cea6abdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Mobile/HealMobile.prefab using Guid(eaf4cc557f8b6214e97aca4cea6abdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa6993d2c0be19dfb648c2199ff0579') in 0.017144 seconds 
+  Import took 0.019741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.023640 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Teleport3.prefab
+  artifactKey: Guid(f6e43f8a761ffb741bb2c1772f1c3663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Teleport3.prefab using Guid(f6e43f8a761ffb741bb2c1772f1c3663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6eff0cfb2e4a700e6b28d85fa7f81ba') in 0.018446 seconds 
+  Import took 0.021291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.033321 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Materials/Auras/Teleport3/ParticlesCore.mat
+  artifactKey: Guid(ef5c576b316c50a448bbfacbbe6c4003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Materials/Auras/Teleport3/ParticlesCore.mat using Guid(ef5c576b316c50a448bbfacbbe6c4003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ac5a31270a85bc4174d53306abbb6') in 0.030002 seconds 
+  Import took 0.032420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.275953 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Teleport3.prefab
+  artifactKey: Guid(f6e43f8a761ffb741bb2c1772f1c3663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Teleport3.prefab using Guid(f6e43f8a761ffb741bb2c1772f1c3663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d70af4bfbd7795b79921a09b21bc62') in 0.016314 seconds 
+  Import took 0.019119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.367621 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Teleport2.prefab
+  artifactKey: Guid(f367e5eacde3af14790550f033560534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras/Teleport2.prefab using Guid(f367e5eacde3af14790550f033560534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36220e3b835980d5aa2e4206b2ee039b') in 0.020401 seconds 
+  Import took 0.022987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.442910 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Materials/Auras/Teleport2/Particles.mat
+  artifactKey: Guid(b9c0bfbddd6342847a9eb5e25ae1896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Materials/Auras/Teleport2/Particles.mat using Guid(b9c0bfbddd6342847a9eb5e25ae1896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81495643e92c9715894895be6576fd5a') in 0.022141 seconds 
+  Import took 0.024556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.143249 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo
+  artifactKey: Guid(f7bb7a1f1a4694246a82c94aa785f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo using Guid(f7bb7a1f1a4694246a82c94aa785f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bec06eac5ffe3439ef06d378ec042cf') in 0.010965 seconds 
+  Import took 0.013268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.838561 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings
+  artifactKey: Guid(c8a503931ab94c34ea0cbee0d9416498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings using Guid(c8a503931ab94c34ea0cbee0d9416498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8072a44ee9094dd0dda6c0178f80222f') in 0.004890 seconds 
+  Import took 0.007173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.569030 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings/build_building_01_a.png
+  artifactKey: Guid(09fa14695ca756742996a3a973937375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings/build_building_01_a.png using Guid(09fa14695ca756742996a3a973937375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd89133d729c10b3adcc5ce5f60e293') in 0.021850 seconds 
+  Import took 0.024244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.001146 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Effects
+  artifactKey: Guid(d43624a7e17294f4689188da4f18e31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Effects using Guid(d43624a7e17294f4689188da4f18e31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff2c500a5f398c966221fdc293f9a21') in 0.004569 seconds 
+  Import took 0.006854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.545359 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Effects/fx_smoke_01_d.tif
+  artifactKey: Guid(61a2cde4348944047813a51b3cf82c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Effects/fx_smoke_01_d.tif using Guid(61a2cde4348944047813a51b3cf82c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920be6a9cde6159820657e9e923b74da') in 0.020257 seconds 
+  Import took 0.022659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139925 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Effects/LensFlare_01.flare
+  artifactKey: Guid(3496607e46ed3044a9e4fd728e270535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Effects/LensFlare_01.flare using Guid(3496607e46ed3044a9e4fd728e270535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eba424928cfabe06531410797d6bca6') in 0.006247 seconds 
+  Import took 0.008592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.393321 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Effects/lensflare_003.tga
+  artifactKey: Guid(190a6ac226a016d468017e09d4cfe502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Effects/lensflare_003.tga using Guid(190a6ac226a016d468017e09d4cfe502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e37188ba7ffe1fdc32cb9f842c6e6ad') in 0.015437 seconds 
+  Import took 0.017939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.142799 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Effects/LightAnimation.anim
+  artifactKey: Guid(126fc3237c71ddc459a9fcffe558bc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Effects/LightAnimation.anim using Guid(126fc3237c71ddc459a9fcffe558bc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee7d3f74028924c1310a5ab40758942') in 0.006533 seconds 
+  Import took 0.008846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.655952 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Effects/ParticleFlamesSheet.png
+  artifactKey: Guid(0152e34d879bd824db6f38da8f357687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Effects/ParticleFlamesSheet.png using Guid(0152e34d879bd824db6f38da8f357687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fae4190d6f352d4ffe0b64f82d13b9') in 0.012228 seconds 
+  Import took 0.014800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.961381 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Models
+  artifactKey: Guid(2b1890c30d7089c418b38932303057cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Models using Guid(2b1890c30d7089c418b38932303057cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadcb891d76c24e9560d0e8adb6dcd83') in 0.004789 seconds 
+  Import took 0.007122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.142603 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Props
+  artifactKey: Guid(72b4f5cdd9698014b99cae1590a1c01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Props using Guid(72b4f5cdd9698014b99cae1590a1c01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867e536727771bfd7c20859496feb6e2') in 0.004484 seconds 
+  Import took 0.006884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.822883 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Models/Optimized
+  artifactKey: Guid(da0842756e103a84ba7f992a28cd9700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Models/Optimized using Guid(da0842756e103a84ba7f992a28cd9700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b17292c870c96fc67f0503252bb5df') in 0.005039 seconds 
+  Import took 0.007328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.757546 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Models/Optimized/Barrack1.asset
+  artifactKey: Guid(e67a2c1335fb98941bb8b32ad5eb732f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Models/Optimized/Barrack1.asset using Guid(e67a2c1335fb98941bb8b32ad5eb732f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ced19de18777691907abbf6784aefb1') in 0.181847 seconds 
+  Import took 0.184302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007759 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Models/Optimized/Barrack2.asset
+  artifactKey: Guid(7a480bb4ed005dc46a6bf305a0dbdc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Models/Optimized/Barrack2.asset using Guid(7a480bb4ed005dc46a6bf305a0dbdc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcb0bdd54619537b249eb46a0df33d5') in 0.022539 seconds 
+  Import took 0.024974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.144726 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Terrain
+  artifactKey: Guid(aece3c2b464252f4f88a2192b62fbb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Terrain using Guid(aece3c2b464252f4f88a2192b62fbb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90afaacac80476a63720f8018baa49e6') in 0.004330 seconds 
+  Import took 0.006523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.157231 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Terrain/terrain_wetmud_01_a.png
+  artifactKey: Guid(8425b0d68e2612b4897a5209584b7bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Terrain/terrain_wetmud_01_a.png using Guid(8425b0d68e2612b4897a5209584b7bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df835ea6103b8ae08b3403eb1af3dafe') in 0.012625 seconds 
+  Import took 0.014997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.577331 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Terrain/terrain_wetmud_01_n.png
+  artifactKey: Guid(b64c2684bcf67634fa9e7a66fc5913d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Terrain/terrain_wetmud_01_n.png using Guid(b64c2684bcf67634fa9e7a66fc5913d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e783e345feda2daf10e745c8c05ff2cf') in 0.022917 seconds 
+  Import took 0.025278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.558065 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Terrain/terrain_wetmud_01_sg.png
+  artifactKey: Guid(6079802017d518c4aa0f734ece6cbe7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Terrain/terrain_wetmud_01_sg.png using Guid(6079802017d518c4aa0f734ece6cbe7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c9895fbae542c5122dcd547fe183ca') in 0.019530 seconds 
+  Import took 0.022052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.772466 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scripts
+  artifactKey: Guid(f892b177f3cd34d4c9c16794e0470eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scripts using Guid(f892b177f3cd34d4c9c16794e0470eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504ac8f77f86858f9666588c2a62c257') in 0.004677 seconds 
+  Import took 0.007155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.936850 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3
+  artifactKey: Guid(d704a4e491a1269439d8542f8018e4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3 using Guid(d704a4e491a1269439d8542f8018e4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea31cf78b8f8b4887f1d2c569503acc') in 0.005036 seconds 
+  Import took 0.007697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.573929 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Editor
+  artifactKey: Guid(215cd1190b028ee4d8009f4aadc3fd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Editor using Guid(215cd1190b028ee4d8009f4aadc3fd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76975d3f7adc3d4b2245ffb2a650c194') in 0.004784 seconds 
+  Import took 0.007485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.244275 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Effects
+  artifactKey: Guid(185f1f9303730224989cc66cc373939e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Effects using Guid(185f1f9303730224989cc66cc373939e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81143ea6146e576b367d9919c582cf9f') in 0.004777 seconds 
+  Import took 0.007216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099395 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Materials
+  artifactKey: Guid(c4d02d6078dcafe4d957b18fd5572b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Materials using Guid(c4d02d6078dcafe4d957b18fd5572b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf6b1e988ac15247df4b91b009a7a4c') in 0.011134 seconds 
+  Import took 0.013589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133435 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other
+  artifactKey: Guid(691b7969c1bfb2542b0f01aa89503ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other using Guid(691b7969c1bfb2542b0f01aa89503ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd480212350d343e00affa6241d4bd640') in 0.004861 seconds 
+  Import took 0.007327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.118245 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs
+  artifactKey: Guid(69910da1819d6da408fb913cbeae7ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs using Guid(69910da1819d6da408fb913cbeae7ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86488b49a635507d2e8d7cebad3c0fea') in 0.005013 seconds 
+  Import took 0.007609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129126 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene
+  artifactKey: Guid(455535ee89f65f04c941661ddce3a309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene using Guid(455535ee89f65f04c941661ddce3a309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0fa6912f6c420febdb9481b67f2a8a') in 0.004522 seconds 
+  Import took 0.006913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.787400 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other/Animations
+  artifactKey: Guid(6bb1749f89ac2024da0b41a9ebbdd11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other/Animations using Guid(6bb1749f89ac2024da0b41a9ebbdd11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c152c5c83724d10088dc09a6140dd19') in 0.005125 seconds 
+  Import took 0.007605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.621110 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other/Atom
+  artifactKey: Guid(8971606c555a9554abfb4856105e4e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other/Atom using Guid(8971606c555a9554abfb4856105e4e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96750d6a965bbc75c1cfd49dbe1f5a12') in 0.004815 seconds 
+  Import took 0.007137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138755 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other/Robot Kyle
+  artifactKey: Guid(1e742bdca956f6c4293e117143daffc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other/Robot Kyle using Guid(1e742bdca956f6c4293e117143daffc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5ea9bdafe5d75cd1d3a15504bcfe20') in 0.004466 seconds 
+  Import took 0.006846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135279 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other/Cone.FBX
+  artifactKey: Guid(d0f10a156be67af4eb4388aa13472a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other/Cone.FBX using Guid(d0f10a156be67af4eb4388aa13472a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c22b46b049a4a5121c3ef8fa138de4') in 0.045709 seconds 
+  Import took 0.048356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.540467 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other/DropPlane.FBX
+  artifactKey: Guid(6b167ed7072c3d4418e5824f131a8238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other/DropPlane.FBX using Guid(6b167ed7072c3d4418e5824f131a8238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54683b70b1236f167fd73b84c864bdd0') in 0.015886 seconds 
+  Import took 0.018335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114697 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other/DropWorld.FBX
+  artifactKey: Guid(30c81cff48936ef4093657e6e610574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other/DropWorld.FBX using Guid(30c81cff48936ef4093657e6e610574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4d0fa0107023b0948e40d4d704b316') in 0.015708 seconds 
+  Import took 0.018233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.146170 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other/HemiSphere.FBX
+  artifactKey: Guid(8cade13580cd5a44490af3e197a230f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other/HemiSphere.FBX using Guid(8cade13580cd5a44490af3e197a230f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1284808069708123a8edf535efa60b11') in 0.015353 seconds 
+  Import took 0.017777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119171 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other/Plane30x30.FBX
+  artifactKey: Guid(75df84f838fb29740a105916121aa6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other/Plane30x30.FBX using Guid(75df84f838fb29740a105916121aa6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5153f040ca2f01337d0c4f70cb7a90b') in 0.015036 seconds 
+  Import took 0.017510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.165026 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other/Rock1.FBX
+  artifactKey: Guid(dfbf77845411d54469fcca1222f5797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other/Rock1.FBX using Guid(dfbf77845411d54469fcca1222f5797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bbcb10d28e54201953be5fe6ecd6f2') in 0.015189 seconds 
+  Import took 0.017651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133154 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other/Rock2.FBX
+  artifactKey: Guid(ff5c4278b142ad447a284b12a65e6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other/Rock2.FBX using Guid(ff5c4278b142ad447a284b12a65e6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ff844c5be3028c0ca9a858958f1f00') in 0.015082 seconds 
+  Import took 0.017615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130040 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other/Stake.FBX
+  artifactKey: Guid(1aed7076a0687754c8bb2c803f0ecaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other/Stake.FBX using Guid(1aed7076a0687754c8bb2c803f0ecaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b7893c05714eee1401876a84fcec80') in 0.016892 seconds 
+  Import took 0.019338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.171695 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Other/StakeCenterPivot.FBX
+  artifactKey: Guid(76b14738bff79214e9680bf6651e3786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Other/StakeCenterPivot.FBX using Guid(76b14738bff79214e9680bf6651e3786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd82918b1a7dfa1f550152f34bb2464') in 0.021400 seconds 
+  Import took 0.023896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.665771 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras
+  artifactKey: Guid(5b18c0f3758857a45aa028c5c0388a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Auras using Guid(5b18c0f3758857a45aa028c5c0388a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db40732c1c8d5529d793115e08b630d0') in 0.004918 seconds 
+  Import took 0.007273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137645 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Balls
+  artifactKey: Guid(18f86d13dae607d4591e93b7ce69fe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Balls using Guid(18f86d13dae607d4591e93b7ce69fe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e95594b91d52b2656454b1230c71ef2') in 0.004411 seconds 
+  Import took 0.006736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.412734 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Objects
+  artifactKey: Guid(ea546cff3eee7a242bc7def7bdc2945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Objects using Guid(ea546cff3eee7a242bc7def7bdc2945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c025df03a628d283206e18e531596eb0') in 0.004512 seconds 
+  Import took 0.006990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114186 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Rockets
+  artifactKey: Guid(a6fa20c888e74264292e3af47ec05f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Rockets using Guid(a6fa20c888e74264292e3af47ec05f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b653663989255c35529411c8ed87eb') in 0.004895 seconds 
+  Import took 0.007301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.714245 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Shots
+  artifactKey: Guid(7d4bdf0dce5d6fe4bb1b43e26dec0001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Shots using Guid(7d4bdf0dce5d6fe4bb1b43e26dec0001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91404b9080075d229312de98a843720') in 0.017438 seconds 
+  Import took 0.019728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.506696 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Shots/Mobile
+  artifactKey: Guid(aaf1b954ce6c659489b989294ed48cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Shots/Mobile using Guid(aaf1b954ce6c659489b989294ed48cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eee86d50f6129d7036dea4ba5bc7110') in 0.004886 seconds 
+  Import took 0.007204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.275370 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Shots/FireRay.prefab
+  artifactKey: Guid(202b33b5d35ea7e4dbcee51026126187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Shots/FireRay.prefab using Guid(202b33b5d35ea7e4dbcee51026126187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944cd86186d2571a2d705affaa816e18') in 0.033072 seconds 
+  Import took 0.036261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.656350 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Shots/FrostRay.prefab
+  artifactKey: Guid(fbaf9e9984344574ba5d82b79ab05331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Prefabs/Shots/FrostRay.prefab using Guid(fbaf9e9984344574ba5d82b79ab05331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f437c338b6ee98c4825eda1d405e76a4') in 0.040391 seconds 
+  Import took 0.043793 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (755ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (604ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (219ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.7 MB.
+System memory in use after: 77.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 2.749100 ms (FindLiveObjects: 0.169900 ms CreateObjectMapping: 0.036800 ms MarkObjects: 2.510600 ms  DeleteObjects: 0.030200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002065 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Domain Reload Profiling:
+	ReloadAssembly (762ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (613ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.9 MB.
+System memory in use after: 78.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1989.
+Total: 2.808800 ms (FindLiveObjects: 0.168300 ms CreateObjectMapping: 0.036600 ms MarkObjects: 2.579600 ms  DeleteObjects: 0.022700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002538 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Domain Reload Profiling:
+	ReloadAssembly (760ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.1 MB.
+System memory in use after: 78.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1994.
+Total: 2.937700 ms (FindLiveObjects: 0.160200 ms CreateObjectMapping: 0.031700 ms MarkObjects: 2.509700 ms  DeleteObjects: 0.234900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1043.843244 seconds.
+  path: Assets/ARPG Effects
+  artifactKey: Guid(46120f2ef4241d94db6043d206714aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects using Guid(46120f2ef4241d94db6043d206714aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c53da409c66ec165837be882f23612') in 0.006958 seconds 
+  Import took 0.010528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.321871 seconds.
+  path: Assets/AllSkyFree
+  artifactKey: Guid(cc1842b37e0b341419b134f9fc5c32f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree using Guid(cc1842b37e0b341419b134f9fc5c32f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ece3d0cd7c1b95b39411b83f849711') in 0.006237 seconds 
+  Import took 0.008525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.584845 seconds.
+  path: Assets/Hovl Studio
+  artifactKey: Guid(bce4084a2f20adb47aef7b976ac727fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio using Guid(bce4084a2f20adb47aef7b976ac727fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a451a6c525ca37ce8f34f69e0d8d17e3') in 0.004180 seconds 
+  Import took 0.006169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.441212 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004729 seconds 
+  Import took 0.007103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.906715 seconds.
+  path: Assets/Application
+  artifactKey: Guid(aa2534f14427eb64badd78d611baf5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application using Guid(aa2534f14427eb64badd78d611baf5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff602cfd5cf3ae091b0dbb305b74d02') in 0.012336 seconds 
+  Import took 0.014743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.397207 seconds.
+  path: Assets/Application/Particle
+  artifactKey: Guid(18bdaf4aff89a4d4c9200385bc418003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Particle using Guid(18bdaf4aff89a4d4c9200385bc418003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fa6e56716ee66b5f979d025d45d487') in 0.005065 seconds 
+  Import took 0.007493 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001880 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Domain Reload Profiling:
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (632ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.1 MB.
+System memory in use after: 78.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1996.
+Total: 2.983800 ms (FindLiveObjects: 0.165900 ms CreateObjectMapping: 0.032200 ms MarkObjects: 2.532200 ms  DeleteObjects: 0.252400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.789568 seconds.
+  path: Assets/Hovl Studio/AOE Magic spells Vol.1
+  artifactKey: Guid(2a4a2ba7ad107514592eb523ce27a19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AOE Magic spells Vol.1 using Guid(2a4a2ba7ad107514592eb523ce27a19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde703ffa25ff5ed41f8e55cd1dc8a88') in 0.014088 seconds 
+  Import took 0.016494 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (624ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.1 MB.
+System memory in use after: 78.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1998.
+Total: 2.796900 ms (FindLiveObjects: 0.191100 ms CreateObjectMapping: 0.033000 ms MarkObjects: 2.366800 ms  DeleteObjects: 0.204800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.765 seconds
+Domain Reload Profiling:
+	ReloadAssembly (766ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (613ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.2 MB.
+System memory in use after: 78.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2000.
+Total: 2.815700 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.034600 ms MarkObjects: 2.378600 ms  DeleteObjects: 0.231000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
