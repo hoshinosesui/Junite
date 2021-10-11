@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Animator animator;
+    private Collider handCollider;
+    private bool isPunching;
 
     //入力用変数
     private float verticalInput;
@@ -17,10 +19,22 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        handCollider = GameObject.Find("B-hand_R").GetComponent<BoxCollider>();
+        isPunching = animator.GetBool("Punch");
     }
 
     // Update is called once per frame
     void Update()
+    {
+        if (isPunching == false)
+        {
+            Locomotion();
+        }
+
+        Attack();
+    }
+
+    private void Locomotion()
     {
         //入力を受ける
         verticalInput = Input.GetAxis("Vertical");
@@ -31,10 +45,10 @@ public class PlayerController : MonoBehaviour
 
         //前後移動
         //後ろに移動する際には移動速度が半分
-        if(verticalInput >= -0.5)
+        if (verticalInput >= -0.5)
         {
             transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed * verticalInput);
-        } 
+        }
         else if (verticalInput < -0.5)
         {
             transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed * verticalInput * 0.5f);
@@ -42,5 +56,20 @@ public class PlayerController : MonoBehaviour
 
         //左右移動
         transform.Rotate(Vector3.up * Time.deltaTime * rotateSpeed * horizontalInput);
+    }
+
+    private void Attack()
+    {
+        //パンチ
+        if (Input.GetMouseButton(0))
+        {
+            animator.SetBool("Punch", true);
+            handCollider.enabled = true;
+        }
+        else
+        {
+            animator.SetBool("Punch", false);
+            handCollider.enabled = false;
+        }
     }
 }
