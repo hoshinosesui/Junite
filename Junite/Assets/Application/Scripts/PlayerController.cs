@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
     private Animator animator;
     private Collider handCollider;
+    private NavMeshAgent agent;
     private bool isPunching;
 
     //ì¸óÕópïœêî
@@ -20,17 +22,15 @@ public class PlayerController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         handCollider = GameObject.Find("B-hand_R").GetComponent<BoxCollider>();
+        agent = GetComponent<NavMeshAgent>();
+
         isPunching = animator.GetBool("Punch");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isPunching == false)
-        {
-            Locomotion();
-        }
-
+        Locomotion();
         Attack();
     }
 

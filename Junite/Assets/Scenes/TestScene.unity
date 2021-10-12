@@ -204,7 +204,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: fce2ed2d0c0c2924ebc30c12ffdc4559, type: 2}
     - target: {fileID: 2086163354585523970, guid: 81d68ed78f0aa0e458a835ec709265cb, type: 3}
       propertyPath: m_ApplyRootMotion
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81d68ed78f0aa0e458a835ec709265cb, type: 3}
@@ -570,6 +570,22 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1742818757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742818752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e854fabae6878e4eb74ea3f6ee3e9d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackPassiveSkill: 0
+  defencePassiveSkill: 0
+  healPassiveSkill: 0
+  movePassiveSkill: 0
 --- !u!1 &2113322385
 GameObject:
   m_ObjectHideFlags: 0
