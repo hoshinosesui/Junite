@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'ja' Physical Memory: 16311 MB
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'ja' Physical Memory: 16311 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/GitHub/Junite/Junite
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55209
+52626
 Successfully changed project path to: D:/GitHub/Junite/Junite
 D:/GitHub/Junite/Junite
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,36 +35,36 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001865 seconds.
+Registered in 0.001842 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.684 seconds
+- Completed reload, in  1.894 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1685ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (1894ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (343ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (358ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (120ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (141ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (150ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (15ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (18ms)
 				ProcessInitializeOnLoadAttributes (60ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
@@ -73,36 +73,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001761 seconds.
+Registered in 0.001780 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
+- Completed reload, in  0.846 seconds
 Domain Reload Profiling:
-	ReloadAssembly (841ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (847ms)
+		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (652ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
+			SetupTypeCache (219ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (251ms)
+			SetupLoadedEditorAssemblies (245ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -110,36 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.9 MB.
+Unloading 1630 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.5 MB.
+System memory in use after: 113.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1978.
-Total: 2.787700 ms (FindLiveObjects: 0.176900 ms CreateObjectMapping: 0.031800 ms MarkObjects: 2.491400 ms  DeleteObjects: 0.086300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.4 MB.
-System memory in use after: 53.5 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1978.
-Total: 2.801100 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.032800 ms MarkObjects: 2.585500 ms  DeleteObjects: 0.014400 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2096.
+Total: 3.918800 ms (FindLiveObjects: 0.217200 ms CreateObjectMapping: 0.038600 ms MarkObjects: 3.221900 ms  DeleteObjects: 0.439600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -154,80 +132,1041 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Application/Scripts/PassiveSkill.cs
-  artifactKey: Guid(7e854fabae6878e4eb74ea3f6ee3e9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Application/Scripts/PassiveSkill.cs using Guid(7e854fabae6878e4eb74ea3f6ee3e9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9a9f02221465f8e73f5955e6b63247') in 0.045220 seconds 
-  Import took 0.048565 seconds .
+  path: Assets/UnityGrassGeometryShader-master/Assets/Main.unity
+  artifactKey: Guid(bc58ece27f7998e439912a63b8244868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGrassGeometryShader-master/Assets/Main.unity using Guid(bc58ece27f7998e439912a63b8244868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdddc968fdd8e632723f3e46bc8db2a') in 0.023418 seconds 
+  Import took 0.028390 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 366.570924 seconds.
-  path: Assets/Application/Scripts/PassiveSkill.cs
-  artifactKey: Guid(7e854fabae6878e4eb74ea3f6ee3e9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Application/Scripts/PassiveSkill.cs using Guid(7e854fabae6878e4eb74ea3f6ee3e9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5df1367e14a550b93ac938280a79563') in 0.017042 seconds 
-  Import took 0.019910 seconds .
+  Time since last request: 0.000407 seconds.
+  path: Assets/UnityGrassGeometryShader-master/LICENSE
+  artifactKey: Guid(542e730997c8ee5468991aafbdb62dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGrassGeometryShader-master/LICENSE using Guid(542e730997c8ee5468991aafbdb62dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ab498180546fa7bf6084dbfaed9725') in 0.006578 seconds 
+  Import took 0.009530 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.817063 seconds.
-  path: Assets/Application/Scripts/PassiveSkill.cs
-  artifactKey: Guid(7e854fabae6878e4eb74ea3f6ee3e9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Application/Scripts/PassiveSkill.cs using Guid(7e854fabae6878e4eb74ea3f6ee3e9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14969d0712d48e287798dbf2f6e2becd') in 0.018574 seconds 
-  Import took 0.021141 seconds .
+  Time since last request: 0.000350 seconds.
+  path: Assets/UnityGrassGeometryShader-master/Assets/Grass.shader
+  artifactKey: Guid(01eab4087a959ef4cbc34b8a3fba1e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGrassGeometryShader-master/Assets/Grass.shader using Guid(01eab4087a959ef4cbc34b8a3fba1e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f6339f09a1deadd9521fb8ae7231e4') in 0.024758 seconds 
+  Import took 0.029005 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 144.452086 seconds.
-  path: Assets/Application/Scripts/PassiveSkill.cs
-  artifactKey: Guid(7e854fabae6878e4eb74ea3f6ee3e9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Application/Scripts/PassiveSkill.cs using Guid(7e854fabae6878e4eb74ea3f6ee3e9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e322b46cc4b4ee13984c4b77cffa951') in 0.025157 seconds 
-  Import took 0.028545 seconds .
+  Time since last request: 21.606857 seconds.
+  path: Assets/Yurowm/Animations/Legacy
+  artifactKey: Guid(b126fa814efd131448db0af6a84de13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Legacy using Guid(b126fa814efd131448db0af6a84de13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5211cdf476728ab8285039f4f93cf923') in 0.004661 seconds 
+  Import took 0.008784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.463215 seconds.
+  path: Assets/Yurowm/Animations/CrouchingRun_Rifle.FBX
+  artifactKey: Guid(5fcc763ca20130e45b6b551a994e0d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/CrouchingRun_Rifle.FBX using Guid(5fcc763ca20130e45b6b551a994e0d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4125a0cbd77f2317316dd6fdaf7d9cf') in 0.031165 seconds 
+  Import took 0.034698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195775 seconds.
+  path: Assets/Yurowm/Animations/Damage1.FBX
+  artifactKey: Guid(0c7df611372c17d4fa6b4fb0309f2736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Damage1.FBX using Guid(0c7df611372c17d4fa6b4fb0309f2736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5b1fceb406bc022a7e71fabca6f08e') in 0.008809 seconds 
+  Import took 0.011344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196524 seconds.
+  path: Assets/Yurowm/Animations/Damage2.FBX
+  artifactKey: Guid(b353efcedd1ef7c45a4a4e9f4d560a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Damage2.FBX using Guid(b353efcedd1ef7c45a4a4e9f4d560a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c8e5b51fea9a96f8ae85c717ddbb27') in 0.008466 seconds 
+  Import took 0.012477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192282 seconds.
+  path: Assets/Yurowm/Animations/Damage3.FBX
+  artifactKey: Guid(46177b80efd7bc94e829ee112aa0897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Damage3.FBX using Guid(46177b80efd7bc94e829ee112aa0897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66c78215e3db7a2594e89e428942abe') in 0.009244 seconds 
+  Import took 0.011927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.683602 seconds.
+  path: Assets/Yurowm/Animations/Death.FBX
+  artifactKey: Guid(fa132a3741a9d6849a2d44d5d807c7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Death.FBX using Guid(fa132a3741a9d6849a2d44d5d807c7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc68b29cc90e3bb737fcdd0d29846a2') in 0.009673 seconds 
+  Import took 0.013887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.488945 seconds.
+  path: Assets/Yurowm/Animations/Death_Rifle.FBX
+  artifactKey: Guid(c749f3a8aaf10cd44b3c536ea2e67495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Death_Rifle.FBX using Guid(c749f3a8aaf10cd44b3c536ea2e67495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb131bd7e2fc3f4a9bef5c1e09ea097') in 0.009928 seconds 
+  Import took 0.014728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111870 seconds.
+  path: Assets/Yurowm/Animations/FightStance.FBX
+  artifactKey: Guid(da0289abaa718064fa7fdd9e465a38ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/FightStance.FBX using Guid(da0289abaa718064fa7fdd9e465a38ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713c82fc31dea3ec6b1f0e9f49d905ec') in 0.009604 seconds 
+  Import took 0.013511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101570 seconds.
+  path: Assets/Yurowm/Animations/Fire_1Pistol.FBX
+  artifactKey: Guid(4bb8da2f8c229404bbbe9b6b26d56563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Fire_1Pistol.FBX using Guid(4bb8da2f8c229404bbbe9b6b26d56563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c7f78deb341139aac586f5317c6a10') in 0.009252 seconds 
+  Import took 0.012059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.918485 seconds.
+  path: Assets/Yurowm/Animations/Fire_2Pistol.FBX
+  artifactKey: Guid(510cc0ca850fa0a4b861638920e882b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Fire_2Pistol.FBX using Guid(510cc0ca850fa0a4b861638920e882b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8d146686b2850e7e5e83b0446b69b6') in 0.009708 seconds 
+  Import took 0.014144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.255881 seconds.
+  path: Assets/Yurowm/Animations/Fire_SniperRifle.FBX
+  artifactKey: Guid(75fb60ee2bc98f04fbcd08239ff9dcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Fire_SniperRifle.FBX using Guid(75fb60ee2bc98f04fbcd08239ff9dcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdf4125f7f973c818b53dbb1186eeac') in 0.009404 seconds 
+  Import took 0.012988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.214216 seconds.
+  path: Assets/Yurowm/Animations/Hit.FBX
+  artifactKey: Guid(d0e4b18abf7abe44eaee9d5839bb2eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Hit.FBX using Guid(d0e4b18abf7abe44eaee9d5839bb2eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c3906561ecacd7be3d61de807c04f3') in 0.008985 seconds 
+  Import took 0.012816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.537228 seconds.
+  path: Assets/Yurowm/Animations/Idle.FBX
+  artifactKey: Guid(ad14061f34e52954c8140cf33bea1253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Idle.FBX using Guid(ad14061f34e52954c8140cf33bea1253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f19044773e7d00115542b1b99af062') in 0.016510 seconds 
+  Import took 0.020570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.295548 seconds.
+  path: Assets/Yurowm/Animations/Idle_HandUp.FBX
+  artifactKey: Guid(1fa629cc25c4e8544ad6c94308a96efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Idle_HandUp.FBX using Guid(1fa629cc25c4e8544ad6c94308a96efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231131959494cdead90d8fd50d98bf8d') in 0.010407 seconds 
+  Import took 0.013281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.110604 seconds.
+  path: Assets/Yurowm/Animations/Jump.FBX
+  artifactKey: Guid(7fed3b82482a3e64ea0ce62c9c11b782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Jump.FBX using Guid(7fed3b82482a3e64ea0ce62c9c11b782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5ff703bf5a624206eadf29ce68e24b') in 0.009103 seconds 
+  Import took 0.012874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.980428 seconds.
+  path: Assets/Yurowm/Animations/Jump_Rifle.FBX
+  artifactKey: Guid(2e200b69723aa9b4a8c2a30cc3fd4dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Jump_Rifle.FBX using Guid(2e200b69723aa9b4a8c2a30cc3fd4dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f6267f014553d82ea77133433e49a7') in 0.009970 seconds 
+  Import took 0.013825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.196644 seconds.
+  path: Assets/Yurowm/Animations/Run.FBX
+  artifactKey: Guid(26d71630cd21fbf4c90a2878defdc438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Run.FBX using Guid(26d71630cd21fbf4c90a2878defdc438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd194106ed752a883d3a15e5d83f81c38') in 0.009587 seconds 
+  Import took 0.013915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.164315 seconds.
+  path: Assets/Yurowm/Animations/Run_Rifle.FBX
+  artifactKey: Guid(dd5113fa1aaccc54f9f38114119cc2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Run_Rifle.FBX using Guid(dd5113fa1aaccc54f9f38114119cc2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f5ebe3a51a82743b11cc930eb19dc6') in 0.009559 seconds 
+  Import took 0.013095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.463233 seconds.
+  path: Assets/Yurowm/Animations/Sneak.FBX
+  artifactKey: Guid(319414218551b334dbe554f474f48357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Sneak.FBX using Guid(319414218551b334dbe554f474f48357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57159f879413fe2dfa82133c64103733') in 0.010578 seconds 
+  Import took 0.014283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.396313 seconds.
+  path: Assets/Yurowm/Animations/Sneak_Rifle.FBX
+  artifactKey: Guid(f4f4d4ce8b792e848a8f64d271554a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Sneak_Rifle.FBX using Guid(f4f4d4ce8b792e848a8f64d271554a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161c4ffb8e2053b47f805a5beec7a9ad') in 0.009098 seconds 
+  Import took 0.013881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.460449 seconds.
+  path: Assets/Yurowm/Animations/Walk.FBX
+  artifactKey: Guid(20228d3ccfedbb44081151a9b249a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Animations/Walk.FBX using Guid(20228d3ccfedbb44081151a9b249a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace0eaaac699de88751c221ac593b412') in 0.016128 seconds 
+  Import took 0.020280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.698308 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Prefabs/Target.prefab
+  artifactKey: Guid(3a555105d974c19488b7be673891a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Prefabs/Target.prefab using Guid(3a555105d974c19488b7be673891a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b5a1cf20f199e26194313884536999') in 0.009117 seconds 
+  Import took 0.012514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.614645 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Prefabs/Camera.prefab
+  artifactKey: Guid(16dc4b51d7b30f74a9fd33417596daa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Prefabs/Camera.prefab using Guid(16dc4b51d7b30f74a9fd33417596daa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d5da930c0cc62b4188f19926338b81') in 0.066875 seconds 
+  Import took 0.071041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.250833 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Mesh
+  artifactKey: Guid(3b5e11c561bfaa44fa9657035ee7cdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Mesh using Guid(3b5e11c561bfaa44fa9657035ee7cdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b166323483344e4431bc330a23a22542') in 0.012914 seconds 
+  Import took 0.015628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.100964 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Scenes
+  artifactKey: Guid(e3830fedc12e55e46bee00f32e70a52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Scenes using Guid(e3830fedc12e55e46bee00f32e70a52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9197f36d516bc2366c77bd9f68e6d2ef') in 0.018441 seconds 
+  Import took 0.022350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.434847 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Scenes/TestZone
+  artifactKey: Guid(76d08fdacfefe514ebc88e2a2e0bd4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Scenes/TestZone using Guid(76d08fdacfefe514ebc88e2a2e0bd4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6c735e1876cf7cdbfddd55897bb41c') in 0.004825 seconds 
+  Import took 0.009217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.917305 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Code
+  artifactKey: Guid(ae38c40fa89f94c49abce1e62fa61b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Code using Guid(ae38c40fa89f94c49abce1e62fa61b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82fb13e3971b32c0842624ea76fc25c') in 0.005030 seconds 
+  Import took 0.008297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.501451 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Materials
+  artifactKey: Guid(381b99401889e974cab473bfc09ad876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Materials using Guid(381b99401889e974cab473bfc09ad876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3589009090a9c240898bcb0fb7eec36b') in 0.004888 seconds 
+  Import took 0.009400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.610157 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations
+  artifactKey: Guid(4ed93f52c1a9abd46a44bf3b86d6b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations using Guid(4ed93f52c1a9abd46a44bf3b86d6b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fe5dc4cbd0103a7cf8a728ba9e73ad') in 0.005463 seconds 
+  Import took 0.008234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.840935 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations
+  artifactKey: Guid(f0c21875b15af264db996644ed07d053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations using Guid(f0c21875b15af264db996644ed07d053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd494c7b51dba91de9f851f4d3d6510') in 0.004710 seconds 
+  Import took 0.007212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.771752 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded
+  artifactKey: Guid(9992b8ec950ff9d47ba9d7745e9e1a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded using Guid(9992b8ec950ff9d47ba9d7745e9e1a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4d51badda5dc81061ecf85777983f5') in 0.007029 seconds 
+  Import took 0.012708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147545 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/MeleeWarrior@Death01.fbx
+  artifactKey: Guid(f45f25a676b0b0841a9ae2d01172d138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/MeleeWarrior@Death01.fbx using Guid(f45f25a676b0b0841a9ae2d01172d138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3de0fd865ad2ef8cb7c029159875d71') in 0.014147 seconds 
+  Import took 0.017309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.919710 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/MW@Death01.controller
+  artifactKey: Guid(cf46434a751dc3f409cc9baba1a8e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/MW@Death01.controller using Guid(cf46434a751dc3f409cc9baba1a8e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca92c9ad576b6653e9fedda679973520') in 0.008644 seconds 
+  Import took 0.013332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.913902 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Materials
+  artifactKey: Guid(f019bb9c838faca4ea249d4980e3db48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Materials using Guid(f019bb9c838faca4ea249d4980e3db48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48e75adcd6a4f4a1fd44b4fbd59d728') in 0.010873 seconds 
+  Import took 0.015505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.855580 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Models
+  artifactKey: Guid(35b020203ef896b4db4b7d06d121cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Models using Guid(35b020203ef896b4db4b7d06d121cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812344b14a71a9f4afb9e2ad83dc8e20') in 0.005150 seconds 
+  Import took 0.007684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126273 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs
+  artifactKey: Guid(be2dab78f908cc3458db32b6279f7032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs using Guid(be2dab78f908cc3458db32b6279f7032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bcc68dfdbde4e86fc29876d6ca049e') in 0.005175 seconds 
+  Import took 0.008910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.558213 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs/Characters
+  artifactKey: Guid(3c902ea9e33a9f748be9faaae9b7e8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs/Characters using Guid(3c902ea9e33a9f748be9faaae9b7e8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013b05bf951b70a2ea8aa1c696df4bc9') in 0.004879 seconds 
+  Import took 0.008504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.307848 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs/Weapons
+  artifactKey: Guid(0cf723e9187276a4380b8e696f6f5565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs/Weapons using Guid(0cf723e9187276a4380b8e696f6f5565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3dacb5dfc8724c344ee78e43e376124') in 0.004711 seconds 
+  Import took 0.008851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.710378 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs/Weapons/1HSword.prefab
+  artifactKey: Guid(29b475577bd142043a2ccad80f84455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs/Weapons/1HSword.prefab using Guid(29b475577bd142043a2ccad80f84455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae0dfbfb9f26c964d9b4510d0490d61') in 0.161339 seconds 
+  Import took 0.165606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059136 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs/Weapons/Shield.prefab
+  artifactKey: Guid(d7b51802bc4a6ef4eb326bae8f29531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs/Weapons/Shield.prefab using Guid(d7b51802bc4a6ef4eb326bae8f29531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1230b2a6937ded1c34b913db51ca8ae7') in 0.015197 seconds 
+  Import took 0.019534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.864231 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs/Characters/ShieldWarrior.prefab
+  artifactKey: Guid(8526fc62d267e704aabe14dd3ca9d7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs/Characters/ShieldWarrior.prefab using Guid(8526fc62d267e704aabe14dd3ca9d7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96341ef148d4f7cc25428b7ad1fd5d5c') in 0.038995 seconds 
+  Import took 0.043387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.067675 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs/Characters/SwordWarrior.prefab
+  artifactKey: Guid(917e00053cb499241a1d42e2b2716532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Prefabs/Characters/SwordWarrior.prefab using Guid(917e00053cb499241a1d42e2b2716532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915d13edd1a1fb3e34634a6b479c4e17') in 0.028857 seconds 
+  Import took 0.032827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.111717 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Textures/MeleeWarriorTexture.png
+  artifactKey: Guid(b8a9c85cf604066438b4c7ed802cc006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Textures/MeleeWarriorTexture.png using Guid(b8a9c85cf604066438b4c7ed802cc006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2bead99b2e2cdac9d5025d03944442') in 0.022033 seconds 
+  Import took 0.024756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.546952 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Textures
+  artifactKey: Guid(9b02231defda6fd4382c3f2b1d18aca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Textures using Guid(9b02231defda6fd4382c3f2b1d18aca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307d91d4a8e106f69e12c933d2ba6293') in 0.004812 seconds 
+  Import took 0.008646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.532589 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Models/Characters
+  artifactKey: Guid(3b46057b6e379a546870159ef178bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Models/Characters using Guid(3b46057b6e379a546870159ef178bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9480d344612123ecbb8449a042043887') in 0.004555 seconds 
+  Import took 0.008140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.337661 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Models/Weapons
+  artifactKey: Guid(9e3ecd90f8314424fa22bd1a73002a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Models/Weapons using Guid(9e3ecd90f8314424fa22bd1a73002a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f20a886cccdf3430d712a331270fa1c') in 0.004726 seconds 
+  Import took 0.008314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.531680 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement
+  artifactKey: Guid(4ab9fca60b430cb40baf42ea9b61dafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement using Guid(4ab9fca60b430cb40baf42ea9b61dafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0c63f85b352fc8f20fa50e5bb6cb87') in 0.004516 seconds 
+  Import took 0.007500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.888801 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand
+  artifactKey: Guid(811920d346222fb4c872405a607ffd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand using Guid(811920d346222fb4c872405a607ffd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a807b261e836c440a30d0237cbd79b') in 0.004779 seconds 
+  Import took 0.007383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.897647 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Run01 - Forward [RM].fbx
+  artifactKey: Guid(7b69ca1e991f4ee45b7ec439405734eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Run01 - Forward [RM].fbx using Guid(7b69ca1e991f4ee45b7ec439405734eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa9c4656dd210ea7841ac847ac64a75') in 0.013598 seconds 
+  Import took 0.017734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.499367 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Run01 - Forward.fbx
+  artifactKey: Guid(da377704b7242394093984fb754cf1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Run01 - Forward.fbx using Guid(da377704b7242394093984fb754cf1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c44a6368e125384690cd8b54208fcc2') in 0.018585 seconds 
+  Import took 0.023690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.076210 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Sprint01 - Forward [RM].fbx
+  artifactKey: Guid(6342e3e599153f943833cd1576dd4ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Sprint01 - Forward [RM].fbx using Guid(6342e3e599153f943833cd1576dd4ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c913a0e38cd1191869676b08fc5303') in 0.009250 seconds 
+  Import took 0.012966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.459042 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Sprint01 - Forward.fbx
+  artifactKey: Guid(ce6b5c9f588a2be49a0268787c7444a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Sprint01 - Forward.fbx using Guid(ce6b5c9f588a2be49a0268787c7444a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a08942540e42d50947003e1dea53be') in 0.009434 seconds 
+  Import took 0.013964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.675637 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand/RightHand@Attack01.fbx
+  artifactKey: Guid(3558db8e6c045c3418d8e7593f8a88de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand/RightHand@Attack01.fbx using Guid(3558db8e6c045c3418d8e7593f8a88de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01a839f292b3a20c5a64856db664d4b') in 0.009890 seconds 
+  Import took 0.014647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.308212 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Shield
+  artifactKey: Guid(584b02d6dd2674640abfc227cc876040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Shield using Guid(584b02d6dd2674640abfc227cc876040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb801cfceec55a00822879666971be6f') in 0.004950 seconds 
+  Import took 0.007851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.794506 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Shield/Shield@Attack01.fbx
+  artifactKey: Guid(cfcaee7e459130d489c153b3aeaaa3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Shield/Shield@Attack01.fbx using Guid(cfcaee7e459130d489c153b3aeaaa3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3809eac79aeac24fd80a5b7e9d33d8e7') in 0.010006 seconds 
+  Import took 0.014200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.529242 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@CombatIdle.controller
+  artifactKey: Guid(92efc5a6051953a4db45a52f72df44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@CombatIdle.controller using Guid(92efc5a6051953a4db45a52f72df44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251e6500a95db3d92acb5effc910f91a') in 0.006044 seconds 
+  Import took 0.010412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.528952 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunBackward.controller
+  artifactKey: Guid(5f8f4e5419636514fa2abc760365db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunBackward.controller using Guid(5f8f4e5419636514fa2abc760365db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4954e0152df8fb711b17f726c35aa54') in 0.012365 seconds 
+  Import took 0.016048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.645110 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animation Controller
+  artifactKey: Guid(fa717b9e737553746b9d6fdea9d0deda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animation Controller using Guid(fa717b9e737553746b9d6fdea9d0deda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f126a4b913d6a58350d5d3f7e161660f') in 0.005021 seconds 
+  Import took 0.008668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.839817 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations
+  artifactKey: Guid(333a26b651c0a304f8ec5288c2dc61b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations using Guid(333a26b651c0a304f8ec5288c2dc61b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf98f23f47c1e5fce73e587023f79377') in 0.005079 seconds 
+  Import took 0.009412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.771485 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword
+  artifactKey: Guid(ce1172405a7eec843a79c29478d193e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword using Guid(ce1172405a7eec843a79c29478d193e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd53969e09be1780435d9bdbc601be3') in 0.004978 seconds 
+  Import took 0.009274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.882374 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack-Kick-L1.FBX
+  artifactKey: Guid(4a9068f13f97d284dbf46d59ed2a1c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack-Kick-L1.FBX using Guid(4a9068f13f97d284dbf46d59ed2a1c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf7bd4cc32a2399526e2e6bfd8079a0') in 0.012081 seconds 
+  Import took 0.017039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.803300 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack-Kick-R1.FBX
+  artifactKey: Guid(d64332ec0751a3744b2365b0076b5b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack-Kick-R1.FBX using Guid(d64332ec0751a3744b2365b0076b5b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88b58d42224226fa8d0b1222ec1726d') in 0.011242 seconds 
+  Import took 0.015930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125121 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack1.FBX
+  artifactKey: Guid(dce280ced5e006c4cb0eb0fab2f51b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack1.FBX using Guid(dce280ced5e006c4cb0eb0fab2f51b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a391f762ce61d7e75dca2935e6c6713') in 0.010249 seconds 
+  Import took 0.013801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104361 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack2.FBX
+  artifactKey: Guid(7b5b17e2d42e0424f9c36012595dc9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack2.FBX using Guid(7b5b17e2d42e0424f9c36012595dc9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76894b13c5d5ba2b16e4b66778b9d463') in 0.009206 seconds 
+  Import took 0.013710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128636 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack3.FBX
+  artifactKey: Guid(018ce46eeecfeae4abb8016f2c6841ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack3.FBX using Guid(018ce46eeecfeae4abb8016f2c6841ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59159bead6181caf95b92ed5e9f67f10') in 0.009754 seconds 
+  Import took 0.013568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119754 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack4.FBX
+  artifactKey: Guid(cdd2643e8053d5b419629acf98510a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack4.FBX using Guid(cdd2643e8053d5b419629acf98510a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16b9ced0620221b02ccad62bec8c9f7') in 0.009816 seconds 
+  Import took 0.013850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099722 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack5.FBX
+  artifactKey: Guid(04cb27dc01c081446ba2c02f2761f01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack5.FBX using Guid(04cb27dc01c081446ba2c02f2761f01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9b31ddf69d1baf437e68e1d37c9b62') in 0.009395 seconds 
+  Import took 0.012880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.117711 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack6.FBX
+  artifactKey: Guid(c9cdccfb9d6cfef4d9992105a94b5d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack6.FBX using Guid(c9cdccfb9d6cfef4d9992105a94b5d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeded136d6b22ae979927b50c7e68b5') in 0.016877 seconds 
+  Import took 0.020524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103306 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack7.FBX
+  artifactKey: Guid(96ed5e4a6dc56fe4c9c2de75fc8a077c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack7.FBX using Guid(96ed5e4a6dc56fe4c9c2de75fc8a077c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f98b7cd85585a4b4777d32b2d9e289c') in 0.010054 seconds 
+  Import took 0.012911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.945128 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed
+  artifactKey: Guid(6256d76e69665db49940c6a380a2a6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed using Guid(6256d76e69665db49940c6a380a2a6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33aa76cc3fba5aeade9856c73db00b3') in 0.004699 seconds 
+  Import took 0.008531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.303113 seconds.
+  path: Assets/Yurowm/Characters/Sci-fi Soldier/Sci-Fi_Soldier.prefab
+  artifactKey: Guid(398da42bc4f6f6e44852a9f96c6c4e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Characters/Sci-fi Soldier/Sci-Fi_Soldier.prefab using Guid(398da42bc4f6f6e44852a9f96c6c4e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22dd6c039080fc29c4b7b54b0ad3c3f') in 0.038862 seconds 
+  Import took 0.043689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.221208 seconds.
+  path: Assets/Yurowm/Characters/Sci-fi Soldier/Sci-Fi_Soldier.fbx
+  artifactKey: Guid(a55b75e1bbafd1241b488997bb65464c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Characters/Sci-fi Soldier/Sci-Fi_Soldier.fbx using Guid(a55b75e1bbafd1241b488997bb65464c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a0d3e379b73572973057d9ff04fd13') in 0.049082 seconds 
+  Import took 0.053087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.504910 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Forward.FBX
+  artifactKey: Guid(a3c7daf5dbba19245938db35245052fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Forward.FBX using Guid(a3c7daf5dbba19245938db35245052fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479345a0e3258f496df5727448cb1298') in 0.009502 seconds 
+  Import took 0.013404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.543148 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Avatar
+  artifactKey: Guid(d1f57145d82c5f34c97c1f11d91938a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Avatar using Guid(d1f57145d82c5f34c97c1f11d91938a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ccf60b6982bd483aa46e5a017bf377') in 0.004945 seconds 
+  Import took 0.008689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.345267 seconds.
+  path: Assets/Kevin Iglesias
+  artifactKey: Guid(4477108e1c576314a98a6048a1edaa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias using Guid(4477108e1c576314a98a6048a1edaa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cdbf73e8ac00a875992720713fd72c') in 0.005590 seconds 
+  Import took 0.009286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.044399 seconds.
+  path: Assets/Yurowm/Characters/Sci-fi Soldier/Sci-Fi_Soldier.fbx
+  artifactKey: Guid(a55b75e1bbafd1241b488997bb65464c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Characters/Sci-fi Soldier/Sci-Fi_Soldier.fbx using Guid(a55b75e1bbafd1241b488997bb65464c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32fbe4094058d67aeb05f8829207690') in 0.027566 seconds 
+  Import took 0.030318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.162404 seconds.
+  path: Assets/Yurowm/Characters/Sci-fi Soldier/Sci-Fi_Soldier.fbx
+  artifactKey: Guid(a55b75e1bbafd1241b488997bb65464c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Characters/Sci-fi Soldier/Sci-Fi_Soldier.fbx using Guid(a55b75e1bbafd1241b488997bb65464c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5914240cee3f133fcc7987e58c266b2') in 0.021469 seconds 
+  Import took 0.024236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.008807 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Code/Gravity.cs
+  artifactKey: Guid(94bba39df9f503940913a5dbc45d6fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Code/Gravity.cs using Guid(94bba39df9f503940913a5dbc45d6fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9140617c988a2f7787758bc59de80085') in 0.015248 seconds 
+  Import took 0.017829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.445684 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Mesh/DemoZone.FBX
+  artifactKey: Guid(16fe8e10c23f6814cb27ba78183e9bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Mesh/DemoZone.FBX using Guid(16fe8e10c23f6814cb27ba78183e9bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5fd37f637d0940444383350e84a417') in 0.017448 seconds 
+  Import took 0.020976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.395405 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Mesh/Platform.FBX
+  artifactKey: Guid(c79ba535414d5e34fa35eb83f2703109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Mesh/Platform.FBX using Guid(c79ba535414d5e34fa35eb83f2703109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7dd207f55dcae0d586a81bdc563ff0a') in 0.015170 seconds 
+  Import took 0.018333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381729 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Mesh/SphereDemoLevel.FBX
+  artifactKey: Guid(85750bab56c880440902826d62d76883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Mesh/SphereDemoLevel.FBX using Guid(85750bab56c880440902826d62d76883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2288b9741d8eb856c9a11d2a2b772a') in 0.016960 seconds 
+  Import took 0.019553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.149834 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Mesh/Staircase.FBX
+  artifactKey: Guid(020947c1c8012f243a0e0fa43bd867f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Mesh/Staircase.FBX using Guid(020947c1c8012f243a0e0fa43bd867f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f53f0efcbedfd36343d0edd08aa29f5') in 0.014551 seconds 
+  Import took 0.017131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.060654 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/SuperCharacterController
+  artifactKey: Guid(4822fb54f2adb0947b315d548023ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/SuperCharacterController using Guid(4822fb54f2adb0947b315d548023ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5867a523ad706c7d97073d66acc57e8c') in 0.005040 seconds 
+  Import took 0.007632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.897892 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core
+  artifactKey: Guid(c99dd2b3298945c48ad6fe8c5a83efd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core using Guid(c99dd2b3298945c48ad6fe8c5a83efd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0127ed57ee44c9557201aff1bd0e61') in 0.005044 seconds 
+  Import took 0.007599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.319232 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/SuperCharacterController/DebugDraw.cs
+  artifactKey: Guid(397030935489978468fd530c80e8661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/SuperCharacterController/DebugDraw.cs using Guid(397030935489978468fd530c80e8661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2ef83c20a3ebcd5ec7e974d807e276') in 0.007413 seconds 
+  Import took 0.010384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.829547 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/BruteForceMesh.cs
+  artifactKey: Guid(805f83d20f16acf4b8d355a30abf0b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/BruteForceMesh.cs using Guid(805f83d20f16acf4b8d355a30abf0b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97ef406a2c417ca2818a768f5b21534') in 0.005076 seconds 
+  Import took 0.008538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.724100 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Textures
+  artifactKey: Guid(aad6f930ae6f59e44bd8f07bfdcea659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Textures using Guid(aad6f930ae6f59e44bd8f07bfdcea659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465a7e813b597f4b4311bea82b87c0ea') in 0.004954 seconds 
+  Import took 0.007652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.585782 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Player.prefab
+  artifactKey: Guid(0241e293f88c9ba4683c927a85520fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Player.prefab using Guid(0241e293f88c9ba4683c927a85520fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774752aec2dbfcb17c093ba641d975d5') in 0.023022 seconds 
+  Import took 0.026059 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001964 seconds.
+Registered in 0.001879 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.852 seconds
+- Completed reload, in  0.786 seconds
 Domain Reload Profiling:
-	ReloadAssembly (853ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (786ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (607ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2097.
+Total: 2.941500 ms (FindLiveObjects: 0.190000 ms CreateObjectMapping: 0.036900 ms MarkObjects: 2.434900 ms  DeleteObjects: 0.278900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.006009 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Materials
+  artifactKey: Guid(b6cdd83b8f43db44bb1c3ee095799a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Materials using Guid(b6cdd83b8f43db44bb1c3ee095799a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b6dac3878c522d3d62dd840c3162e4') in 0.006693 seconds 
+  Import took 0.010143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.918493 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Materials/Stage
+  artifactKey: Guid(4bb4e8100a9f67048ba7f2aef97ca27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Materials/Stage using Guid(4bb4e8100a9f67048ba7f2aef97ca27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed31b5e6906733179525330e4a302a37') in 0.004315 seconds 
+  Import took 0.006613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.361420 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Textures/Target.psd
+  artifactKey: Guid(ff52602033753744aa65216dcf0a9b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Textures/Target.psd using Guid(ff52602033753744aa65216dcf0a9b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039a766365395d5b0690e6d6122c1426') in 1.026603 seconds 
+  Import took 1.030255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.701916 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Textures/Stage/Rock.psd
+  artifactKey: Guid(8a66cc0dee0e31448aa4e5faa6890dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Textures/Stage/Rock.psd using Guid(8a66cc0dee0e31448aa4e5faa6890dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458f864b2a9330f36f13680547dc4953') in 0.833287 seconds 
+  Import took 0.835996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.799292 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Models
+  artifactKey: Guid(19b8b0169b82b9044b2e6214a7a3ba0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Models using Guid(19b8b0169b82b9044b2e6214a7a3ba0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c3296b95840516fb95164f4a45a4d6') in 0.646630 seconds 
+  Import took 0.649935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Models/Stage
+  artifactKey: Guid(e411214c1b049f345a80d89ae79c9ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Models/Stage using Guid(e411214c1b049f345a80d89ae79c9ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85ac1b26834e9227aab3c12f82210b6') in 0.592911 seconds 
+  Import took 0.595881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Models/Target.FBX
+  artifactKey: Guid(c82005efa6bc65e4c838bdcfb57759d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Models/Target.FBX using Guid(c82005efa6bc65e4c838bdcfb57759d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2f8e440854330f5d3f503532f9bb87') in 0.650602 seconds 
+  Import took 0.652967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.618126 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Models/Stage/Ladder.FBX
+  artifactKey: Guid(d203e4db2f2289843a8082732373ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Models/Stage/Ladder.FBX using Guid(d203e4db2f2289843a8082732373ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43d89c422ae2a135ca3a4e1647a3642') in 0.630475 seconds 
+  Import took 0.668198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Models/Stage/Stage.FBX
+  artifactKey: Guid(d826937e74d22874882bc40d136547ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Models/Stage/Stage.FBX using Guid(d826937e74d22874882bc40d136547ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf2d47063b6ee18a6763e7ebac2d78b') in 0.618769 seconds 
+  Import took 0.622175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Models/Stage/Rock.FBX
+  artifactKey: Guid(f0446dd73f1f0fc459b686f749aefcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Models/Stage/Rock.FBX using Guid(f0446dd73f1f0fc459b686f749aefcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31631a1db9ceea83753fe90fb09ef357') in 0.394417 seconds 
+  Import took 0.396586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.366593 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Prefabs
+  artifactKey: Guid(e3fac0fc5122e5344af5fe208226f749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Prefabs using Guid(e3fac0fc5122e5344af5fe208226f749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c726db1f41b169c033966358f5122a9') in 0.004441 seconds 
+  Import took 0.007654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.589096 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage
+  artifactKey: Guid(41c1851770f618c4382ef51cbeb8de0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage using Guid(41c1851770f618c4382ef51cbeb8de0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5084c6bd39305fe3b3dd0a06ac48c966') in 0.004681 seconds 
+  Import took 0.007880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.609697 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage/Cube.prefab
+  artifactKey: Guid(887086c06bd9ec249860a160229755ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage/Cube.prefab using Guid(887086c06bd9ec249860a160229755ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334d79a869e46346feb6e36169c16454') in 0.010834 seconds 
+  Import took 0.014089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.162776 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage/Level.prefab
+  artifactKey: Guid(d88046430d0ae344b86ab8454d6e0f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage/Level.prefab using Guid(d88046430d0ae344b86ab8454d6e0f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b654fc74d8810c8ebf2d84b432e8f757') in 0.022491 seconds 
+  Import took 0.026364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.423110 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage/Moving Platform.prefab
+  artifactKey: Guid(4f3baa9064aae7f40bd0d245e26153fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage/Moving Platform.prefab using Guid(4f3baa9064aae7f40bd0d245e26153fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098fd5c9f78f698472fd0f9698f8a03a') in 0.015607 seconds 
+  Import took 0.018515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.660005 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage/Rock.prefab
+  artifactKey: Guid(83b87616902038645bf92dd87edbbffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage/Rock.prefab using Guid(83b87616902038645bf92dd87edbbffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e465d77114f9642beb4b1958cbc3018f') in 0.013004 seconds 
+  Import took 0.015697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.027705 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage/Tree-Stump.prefab
+  artifactKey: Guid(0f1879a199ef2b949998bbfc30fff7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage/Tree-Stump.prefab using Guid(0f1879a199ef2b949998bbfc30fff7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d4745403b069220fd7214092509d1a') in 0.012544 seconds 
+  Import took 0.015306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.701456 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Prefabs/Moving Platform Animation.anim
+  artifactKey: Guid(31c8be18ffe5935439943a70a407679a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Prefabs/Moving Platform Animation.anim using Guid(31c8be18ffe5935439943a70a407679a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4f7181f7ff33c3f7f7376f31aac2d7') in 0.005753 seconds 
+  Import took 0.008415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.112158 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Prefabs/Moving Platform.controller
+  artifactKey: Guid(2cce83b49c5102d4b85897721be44ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Prefabs/Moving Platform.controller using Guid(2cce83b49c5102d4b85897721be44ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172e76277fed178603fefdc6b3f60609') in 0.005517 seconds 
+  Import took 0.008076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.628020 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Textures
+  artifactKey: Guid(5400b8b6dc273ae449430887a7678aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Textures using Guid(5400b8b6dc273ae449430887a7678aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2655632cf119be9e5e0365c7ce5095e2') in 0.004354 seconds 
+  Import took 0.007736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.528610 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Textures/Stage
+  artifactKey: Guid(21571963a310a284d9acaaff47f2079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Textures/Stage using Guid(21571963a310a284d9acaaff47f2079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a2ded8a0ec8a5446cacc561986408a') in 0.007720 seconds 
+  Import took 0.013709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.453148 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/UI
+  artifactKey: Guid(ca2fdae8160c3964fb3bb9bf3b55cde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/UI using Guid(ca2fdae8160c3964fb3bb9bf3b55cde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28546ea2103eb3e2bc8caf61a506968') in 0.018254 seconds 
+  Import took 0.021069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.602492 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/UI/Controller.psd
+  artifactKey: Guid(a89b87919aade4c498f4e0df342ab278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/UI/Controller.psd using Guid(a89b87919aade4c498f4e0df342ab278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386dcfb8f5907ff38a2819a2dc9b4fdd') in 0.021432 seconds 
+  Import took 0.025168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.108607 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/UI/Controls.psd
+  artifactKey: Guid(19663e3fea6f609468d37dbdcd231930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/UI/Controls.psd using Guid(19663e3fea6f609468d37dbdcd231930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a7a26f6b07cfab103fb903c33551d9') in 0.014597 seconds 
+  Import took 0.017409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.942032 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/1H@CombatIdle01.fbx
+  artifactKey: Guid(af5871ba53a7c294aa4b5fa1995768b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/1H@CombatIdle01.fbx using Guid(af5871ba53a7c294aa4b5fa1995768b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1361726c7fed31083a98a1e0f7824c08') in 0.009089 seconds 
+  Import took 0.012976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.213583 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers
+  artifactKey: Guid(417d464edc4cb2e4cbd6c35b77690a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers using Guid(417d464edc4cb2e4cbd6c35b77690a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccdd75903857ffafedcd953cce8c577') in 0.004826 seconds 
+  Import took 0.008029 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Domain Reload Profiling:
+	ReloadAssembly (802ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (682ms)
-			LoadAssemblies (92ms)
+		EndReloadAssembly (626ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
+			SetupTypeCache (219ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (239ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (224ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (160ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (150ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1471 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.7 MB.
+Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 119.6 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1980.
-Total: 2.825500 ms (FindLiveObjects: 0.138000 ms CreateObjectMapping: 0.031700 ms MarkObjects: 2.637700 ms  DeleteObjects: 0.016500 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2138.
+Total: 3.014700 ms (FindLiveObjects: 0.192100 ms CreateObjectMapping: 0.039200 ms MarkObjects: 2.470200 ms  DeleteObjects: 0.311800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -242,138 +1181,505 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1458.666851 seconds.
-  path: Assets/Application/Animator Controller/Player.controller
-  artifactKey: Guid(fce2ed2d0c0c2924ebc30c12ffdc4559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Application/Animator Controller/Player.controller using Guid(fce2ed2d0c0c2924ebc30c12ffdc4559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26bc7b3a61822a4ba055d25c38ded4d') in 0.068762 seconds 
-  Import took 0.071874 seconds .
+  Time since last request: 1182.162579 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations
+  artifactKey: Guid(333a26b651c0a304f8ec5288c2dc61b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations using Guid(333a26b651c0a304f8ec5288c2dc61b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c20ec3f042f00abd03780353974bb87') in 0.007583 seconds 
+  Import took 0.010923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156498 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword
+  artifactKey: Guid(ce1172405a7eec843a79c29478d193e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword using Guid(ce1172405a7eec843a79c29478d193e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95e55178aea7ceb3cd12ef879d31ec5') in 0.004673 seconds 
+  Import took 0.008513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.320923 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animation Controller/RPG-Character-Animation-ControllerFREE.controller
+  artifactKey: Guid(7ff0cf27ed8e9684b9bdd381bab1f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animation Controller/RPG-Character-Animation-ControllerFREE.controller using Guid(7ff0cf27ed8e9684b9bdd381bab1f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9ff9839e8c05bd98f0253e67a30424') in 0.413868 seconds 
+  Import took 0.421224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.511020 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack8.FBX
+  artifactKey: Guid(05576006da3e02b49b96abc065d9f607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack8.FBX using Guid(05576006da3e02b49b96abc065d9f607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73544e15e8bc99162b310591a37ae9fc') in 0.019920 seconds 
+  Import took 0.023828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026526 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack9.FBX
+  artifactKey: Guid(06e24acb759a2ac4c965d56b0101f8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack9.FBX using Guid(06e24acb759a2ac4c965d56b0101f8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccaf95bf71c31f16a1820cba26173b44') in 0.009713 seconds 
+  Import took 0.013166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.164300 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed
+  artifactKey: Guid(6256d76e69665db49940c6a380a2a6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed using Guid(6256d76e69665db49940c6a380a2a6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2111101fa4a30f72f1fc477109ccac69') in 0.004586 seconds 
+  Import took 0.008266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.077805 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-L1.FBX
+  artifactKey: Guid(95dc4fbaa01379f4f908847fb44054d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-L1.FBX using Guid(95dc4fbaa01379f4f908847fb44054d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1a6a60695afc41e9082ac4a6215e57') in 0.009019 seconds 
+  Import took 0.012875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030288 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX
+  artifactKey: Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX using Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11da8a927d3b352b55573fd68d9c07f5') in 0.008767 seconds 
+  Import took 0.011566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031871 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX
+  artifactKey: Guid(1315bcd7509173f44bc6655b2673dd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX using Guid(1315bcd7509173f44bc6655b2673dd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea5889692db55aa4e91526d82c4eaed') in 0.009230 seconds 
+  Import took 0.013698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034570 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-R1.FBX
+  artifactKey: Guid(ce17781955d25c647922801319f24e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-R1.FBX using Guid(ce17781955d25c647922801319f24e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28c241103e111fbd32bebe67c154bb9') in 0.009281 seconds 
+  Import took 0.012211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040421 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-R2.FBX
+  artifactKey: Guid(8b4aea68a09b24149ab89408f7199bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-R2.FBX using Guid(8b4aea68a09b24149ab89408f7199bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e27495b68ff2479515259e8e722954') in 0.008746 seconds 
+  Import took 0.011674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033092 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-R3.FBX
+  artifactKey: Guid(3414c515c6a2f334da03b4ab3d547691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-R3.FBX using Guid(3414c515c6a2f334da03b4ab3d547691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeb366b60acb4c3d33dff6d0606c277') in 0.009587 seconds 
+  Import took 0.014057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.278497 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-DiveRoll-Forward1.FBX
+  artifactKey: Guid(d05e1e87bea596f49b01fedb8c7da04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-DiveRoll-Forward1.FBX using Guid(d05e1e87bea596f49b01fedb8c7da04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0328bf5b20c9724425a281293dfc6e7') in 0.008575 seconds 
+  Import took 0.012401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030998 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Dodge-Left.FBX
+  artifactKey: Guid(98eb525decb68e34d8574382cf1cdf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Dodge-Left.FBX using Guid(98eb525decb68e34d8574382cf1cdf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302ee19eb051aeb6b251dff3d506bcfd') in 0.010131 seconds 
+  Import took 0.012897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032349 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Dodge-Right.FBX
+  artifactKey: Guid(bf3762a0f871d634e88e548ddc36246d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Dodge-Right.FBX using Guid(bf3762a0f871d634e88e548ddc36246d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed2b87e43e44d07864ccd8f721dcf71') in 0.010479 seconds 
+  Import took 0.014983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079480 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-GetHit-B1.FBX
+  artifactKey: Guid(f2283fcc1389144489d8a3ed7a005b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-GetHit-B1.FBX using Guid(f2283fcc1389144489d8a3ed7a005b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df60e6e95609d1549c5cb88e91ced07c') in 0.009213 seconds 
+  Import took 0.012077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036745 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-GetHit-F1.FBX
+  artifactKey: Guid(77214854f62866c4db0d2b1999fcdf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-GetHit-F1.FBX using Guid(77214854f62866c4db0d2b1999fcdf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e2b78d818c8e4422c4aced1d11d72d') in 0.008784 seconds 
+  Import took 0.011688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038592 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-GetHit-F2.FBX
+  artifactKey: Guid(acbe57a104d8c114c8487055894b3188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-GetHit-F2.FBX using Guid(acbe57a104d8c114c8487055894b3188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c973fe06f64aee8b3f1eef29aafabec') in 0.010384 seconds 
+  Import took 0.014357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030609 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-GetHit-L1.FBX
+  artifactKey: Guid(e6b48830c0e82694daca1c0281422e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-GetHit-L1.FBX using Guid(e6b48830c0e82694daca1c0281422e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a831488d686a9eda9a1bdf2ee1a0f89') in 0.009096 seconds 
+  Import took 0.012068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032015 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-GetHit-R1.FBX
+  artifactKey: Guid(4a8c4ee06f0c2c942b970ffc15726000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-GetHit-R1.FBX using Guid(4a8c4ee06f0c2c942b970ffc15726000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a12173fce1c5bc86902c4f4955c2423') in 0.015104 seconds 
+  Import took 0.017876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030720 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Idle-Alert1.FBX
+  artifactKey: Guid(806843cceef7cc9468d4ceccd1b7edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Idle-Alert1.FBX using Guid(806843cceef7cc9468d4ceccd1b7edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce24333770ef22fd8c75a0f9d3761eb') in 0.022082 seconds 
+  Import took 0.026111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066989 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Idle.FBX
+  artifactKey: Guid(94c75858633b4e04f9e28db3b52b2bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Idle.FBX using Guid(94c75858633b4e04f9e28db3b52b2bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bd16d5383853937d6497d0b1c87245') in 0.010193 seconds 
+  Import took 0.013069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043718 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Jump-Flip.FBX
+  artifactKey: Guid(79e31c86fd172bc439fb920de8bae7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Jump-Flip.FBX using Guid(79e31c86fd172bc439fb920de8bae7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141e8bfc781c986474815ed91541d910') in 0.008441 seconds 
+  Import took 0.011259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034606 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Jump.FBX
+  artifactKey: Guid(39c1e8b66fab3ba418b191caaf714f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Jump.FBX using Guid(39c1e8b66fab3ba418b191caaf714f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f82a06eafa70a241f680e704c9a050') in 0.009630 seconds 
+  Import took 0.012596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032805 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Knockback-Back1.FBX
+  artifactKey: Guid(8a97945fe1c9ff84f9f9a4369d5c4a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Knockback-Back1.FBX using Guid(8a97945fe1c9ff84f9f9a4369d5c4a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f75e349e8e3656c3fc9d4e19d865d3') in 0.017327 seconds 
+  Import took 0.020769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026273 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Revive1.FBX
+  artifactKey: Guid(af86a4047db46444fa59cbc506cc4689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Revive1.FBX using Guid(af86a4047db46444fa59cbc506cc4689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceede008acea80dc030f8622ae145416') in 0.009799 seconds 
+  Import took 0.012568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034569 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Roll-Backward.FBX
+  artifactKey: Guid(8d21a4032c375344093254ff3493a82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Roll-Backward.FBX using Guid(8d21a4032c375344093254ff3493a82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b3702caf15fa7449ec341c0426005b') in 0.008933 seconds 
+  Import took 0.011821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036090 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Roll-Forward.FBX
+  artifactKey: Guid(6f9d9b5dde069034282820e10db8b748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Roll-Forward.FBX using Guid(6f9d9b5dde069034282820e10db8b748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4ad3f40b2157581b84c7405e6c94d4') in 0.009664 seconds 
+  Import took 0.013322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033294 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Roll-Left.FBX
+  artifactKey: Guid(7a4cfa3380fcb524c9233ff11170833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Roll-Left.FBX using Guid(7a4cfa3380fcb524c9233ff11170833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e65044fd421f4663ed93a7625814a5') in 0.009239 seconds 
+  Import took 0.012169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044964 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Roll-Right.FBX
+  artifactKey: Guid(a34ca3f7a1f5a6d468d6a9dc3f8db3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Roll-Right.FBX using Guid(a34ca3f7a1f5a6d468d6a9dc3f8db3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc0dd20ad780967e911df1896e0dd50') in 0.009204 seconds 
+  Import took 0.012066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037671 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Backward-Left.FBX
+  artifactKey: Guid(38d950ecf8ee061498d6479837d21d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Backward-Left.FBX using Guid(38d950ecf8ee061498d6479837d21d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557484128964f8c5acdaf65603c4560b') in 0.010813 seconds 
+  Import took 0.014349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031208 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Backward-Right.FBX
+  artifactKey: Guid(7cb280337cb0fdd4399af55c6ab24dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Backward-Right.FBX using Guid(7cb280337cb0fdd4399af55c6ab24dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b657f1fa72a606f963c9dcdbf7486a') in 0.012653 seconds 
+  Import took 0.016616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031184 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Forward-Left.FBX
+  artifactKey: Guid(443693849a2f4e741afac059a470e10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Forward-Left.FBX using Guid(443693849a2f4e741afac059a470e10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08588b5d2a1fdfc3056f237ab9d9473') in 0.010766 seconds 
+  Import took 0.014451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031755 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Forward-Right.FBX
+  artifactKey: Guid(35ea729f36e02794d8cf0b418642050a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Forward-Right.FBX using Guid(35ea729f36e02794d8cf0b418642050a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5c6d5f6c78aca790e16c694664e5c2') in 0.021877 seconds 
+  Import took 0.025961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028084 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Forward.FBX
+  artifactKey: Guid(a3c7daf5dbba19245938db35245052fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Forward.FBX using Guid(a3c7daf5dbba19245938db35245052fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4e96a4932a40f441adcaa7b616c341') in 0.008875 seconds 
+  Import took 0.011848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038352 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Left.FBX
+  artifactKey: Guid(af2453d50b96fc949891d7b278aaf733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Left.FBX using Guid(af2453d50b96fc949891d7b278aaf733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863c57a96bce4cd05836a4e19f383e56') in 0.016346 seconds 
+  Import took 0.019140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032676 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Right.FBX
+  artifactKey: Guid(6cbfc0656c630a3449739ce9ddffed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Strafe-Right.FBX using Guid(6cbfc0656c630a3449739ce9ddffed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9833a60171c838120455db04fb85b3a') in 0.009072 seconds 
+  Import took 0.011916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035250 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Unsheath-L-Back.FBX
+  artifactKey: Guid(fd442fbf24d0ff64394ca60779ddb569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Unsheath-L-Back.FBX using Guid(fd442fbf24d0ff64394ca60779ddb569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496d09c8cf90d080ae631d96d9e93988') in 0.010258 seconds 
+  Import took 0.013116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034359 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Unsheath-R-Back.FBX
+  artifactKey: Guid(44fbb37608f331c49bc7b96ca36035e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Unsheath-R-Back.FBX using Guid(44fbb37608f331c49bc7b96ca36035e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec264ae1518ebdc9e126cff2c5a22bb5') in 0.009750 seconds 
+  Import took 0.012661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033953 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Walk-Injured.FBX
+  artifactKey: Guid(62196ab8b670de146b6be9041f3bd30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Walk-Injured.FBX using Guid(62196ab8b670de146b6be9041f3bd30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcaace7391c8840488a53296853de3b') in 0.008619 seconds 
+  Import took 0.012532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045393 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Materials
+  artifactKey: Guid(0be3e0c5550ab5245a84635814d81d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Materials using Guid(0be3e0c5550ab5245a84635814d81d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7ddc19fdae36432a7368f488ff88c7') in 0.004400 seconds 
+  Import took 0.007124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024800 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Models
+  artifactKey: Guid(c1a94f9b295f6e540b5f7cb12d0febf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Models using Guid(c1a94f9b295f6e540b5f7cb12d0febf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaed3caeb7631ffb3b6946ad7eca052a') in 0.004397 seconds 
+  Import took 0.008024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031666 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Prefabs
+  artifactKey: Guid(30759b02faf8c144b87ca205deb453bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Prefabs using Guid(30759b02faf8c144b87ca205deb453bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6096c1fa0fc78f7d8fa571141c1eb4e2') in 0.004605 seconds 
+  Import took 0.007853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030801 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Scenes
+  artifactKey: Guid(3d656d47583400741aa7ef887013a34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Scenes using Guid(3d656d47583400741aa7ef887013a34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09079198f657dae48dbd4360bbdd859') in 0.011429 seconds 
+  Import took 0.014013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022834 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Textures
+  artifactKey: Guid(083f4bf18dfb35743a21ac562c68ad64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Textures using Guid(083f4bf18dfb35743a21ac562c68ad64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f0f217449b78758aba885913cae3ee') in 0.004497 seconds 
+  Import took 0.007049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056391 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/RPG Character Mecanim Animation Pack FREE ReadMe.url
+  artifactKey: Guid(39656c7d0b0f0e743a332e4ba1815ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/RPG Character Mecanim Animation Pack FREE ReadMe.url using Guid(39656c7d0b0f0e743a332e4ba1815ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbc27f9f7cafbdb9e05371e14e17ab9') in 0.046335 seconds 
+  Import took 0.050262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.777602 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Roll-Forward.FBX
+  artifactKey: Guid(685f155e179a82d4f9e5aca467ad4a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Roll-Forward.FBX using Guid(685f155e179a82d4f9e5aca467ad4a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142d1287ef50e17acf68ae4aa630d6b5') in 0.010383 seconds 
+  Import took 0.013258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.456501 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Roll-Backward.FBX
+  artifactKey: Guid(2a17928493a4ca444af1e5c34dab944c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Roll-Backward.FBX using Guid(2a17928493a4ca444af1e5c34dab944c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6910e430e729295de743a7e5b5468c') in 0.009807 seconds 
+  Import took 0.012616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.826344 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack10.FBX
+  artifactKey: Guid(5354b4f390c868842b96d7c4c201bdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack10.FBX using Guid(5354b4f390c868842b96d7c4c201bdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64542ae9a772aec490438998a1edd242') in 0.010159 seconds 
+  Import took 0.014326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.502843 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack11.FBX
+  artifactKey: Guid(807a4f9cdadaafe4491d43653dfab0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack11.FBX using Guid(807a4f9cdadaafe4491d43653dfab0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d884db95b7a9ed2d85c5d4e91d85a34') in 0.010019 seconds 
+  Import took 0.012993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.129757 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Block-Break.FBX
+  artifactKey: Guid(73914daf965e5f54d94ba7cca8a51537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Block-Break.FBX using Guid(73914daf965e5f54d94ba7cca8a51537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc32a97ebad2925510501a093327754') in 0.011486 seconds 
+  Import took 0.015385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.105609 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Fall.FBX
+  artifactKey: Guid(af325fd4fbf92f0458ca548353bddf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Fall.FBX using Guid(af325fd4fbf92f0458ca548353bddf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d01eeea964d8af649c4dc60250c4c3a') in 0.009650 seconds 
+  Import took 0.013379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.634123 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-GetHit-B1.FBX
+  artifactKey: Guid(c4a6316ca6c9fdc46bb89081e20406a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-GetHit-B1.FBX using Guid(c4a6316ca6c9fdc46bb89081e20406a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cfdfa34ff6367fdfa705e1fb677571') in 0.009527 seconds 
+  Import took 0.013519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.407215 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Idle-Alert1.FBX
+  artifactKey: Guid(5a7327a9c3ec1f348a3e5db3dff6fc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Idle-Alert1.FBX using Guid(5a7327a9c3ec1f348a3e5db3dff6fc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4c56b8cee6179b7356e975a41b4136') in 0.010757 seconds 
+  Import took 0.013685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.572402 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Idle-Injured1.FBX
+  artifactKey: Guid(9a36dc4d6a84f69419e20bdae76a58f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Idle-Injured1.FBX using Guid(9a36dc4d6a84f69419e20bdae76a58f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56face381dfde27fa19b666ff3367df4') in 0.011199 seconds 
+  Import took 0.014114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.223567 seconds.
+  path: Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Idle.FBX
+  artifactKey: Guid(8370b4128ccb08c4a8944d3f0d66cebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Motions/RPG Character Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Idle.FBX using Guid(8370b4128ccb08c4a8944d3f0d66cebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe58bb0eb69f4ce8ce4e62163b98531c') in 0.010884 seconds 
+  Import took 0.015113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.847902 seconds.
+  path: Assets/Application/Animator Controller/Player-v1.1.controller
+  artifactKey: Guid(d56624d30a545e946918f7825a1ad626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Application/Animator Controller/Player-v1.1.controller using Guid(d56624d30a545e946918f7825a1ad626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3538923a11163041aa3b1335e6b57bae') in 0.007343 seconds 
+  Import took 0.011004 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.025519 seconds.
+Registered in 0.001914 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.824 seconds
+- Completed reload, in  0.780 seconds
 Domain Reload Profiling:
-	ReloadAssembly (824ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (632ms)
-			LoadAssemblies (105ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
+			SetupTypeCache (210ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (242ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (165ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (153ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1471 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.7 MB.
+Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.5 MB.
+System memory in use after: 120.2 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1982.
-Total: 2.541900 ms (FindLiveObjects: 0.146600 ms CreateObjectMapping: 0.035500 ms MarkObjects: 2.346500 ms  DeleteObjects: 0.012400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 159.984763 seconds.
-  path: Assets/Application/Scripts/PlayerController.cs
-  artifactKey: Guid(ab9574e1e43cde445b46c9cae1939c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Application/Scripts/PlayerController.cs using Guid(ab9574e1e43cde445b46c9cae1939c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8fd0364a5e85a888d0d2dbfdf160b1') in 0.029284 seconds 
-  Import took 0.031926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.268836 seconds.
-  path: Assets/Application/Scripts/PlayerController.cs
-  artifactKey: Guid(ab9574e1e43cde445b46c9cae1939c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Application/Scripts/PlayerController.cs using Guid(ab9574e1e43cde445b46c9cae1939c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3808c0350bbf501ad7c667cf85a39f56') in 0.017858 seconds 
-  Import took 0.020442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 153.290413 seconds.
-  path: Assets/Application/Scripts/PlayerController.cs
-  artifactKey: Guid(ab9574e1e43cde445b46c9cae1939c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Application/Scripts/PlayerController.cs using Guid(ab9574e1e43cde445b46c9cae1939c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ed0beb6a91f65c2ab9e4ac47136961') in 0.018077 seconds 
-  Import took 0.020620 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002037 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.883 seconds
-Domain Reload Profiling:
-	ReloadAssembly (883ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (699ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (263ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1471 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1984.
-Total: 2.712200 ms (FindLiveObjects: 0.210000 ms CreateObjectMapping: 0.035800 ms MarkObjects: 2.449400 ms  DeleteObjects: 0.016000 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2140.
+Total: 2.920300 ms (FindLiveObjects: 0.186000 ms CreateObjectMapping: 0.035200 ms MarkObjects: 2.412200 ms  DeleteObjects: 0.286100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -389,28 +1695,28 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.021475 seconds.
+Registered in 0.002230 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.792 seconds
+- Completed reload, in  0.781 seconds
 Domain Reload Profiling:
-	ReloadAssembly (793ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (781ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (609ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (621ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (213ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (225ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
@@ -425,12 +1731,12 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1471 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.7 MB.
+Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.5 MB.
+System memory in use after: 120.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1986.
-Total: 2.902800 ms (FindLiveObjects: 0.205700 ms CreateObjectMapping: 0.037800 ms MarkObjects: 2.641200 ms  DeleteObjects: 0.016800 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2142.
+Total: 3.347100 ms (FindLiveObjects: 0.185300 ms CreateObjectMapping: 0.035500 ms MarkObjects: 2.796500 ms  DeleteObjects: 0.328700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -444,50 +1750,74 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 139.563659 seconds.
+  path: Assets/Yurowm/Weapons/SciFiRifle.fbx
+  artifactKey: Guid(3b75f92e50d992c419ddce3ad37c997a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Weapons/SciFiRifle.fbx using Guid(3b75f92e50d992c419ddce3ad37c997a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedb3cefb44b0ff737b337dd8e3c8946') in 0.091078 seconds 
+  Import took 0.093774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233401 seconds.
+  path: Assets/Yurowm/Weapons/SciFiRifle.prefab
+  artifactKey: Guid(d992a232642f7574b80a75c2ca4b4cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Weapons/SciFiRifle.prefab using Guid(d992a232642f7574b80a75c2ca4b4cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61e248549c9fa1d29897cb3c7d47d2e') in 0.023439 seconds 
+  Import took 0.026324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.968545 seconds.
+  path: Assets/Yurowm/Characters/Sci-fi Soldier/Sci-Fi_Soldier.prefab
+  artifactKey: Guid(398da42bc4f6f6e44852a9f96c6c4e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Characters/Sci-fi Soldier/Sci-Fi_Soldier.prefab using Guid(398da42bc4f6f6e44852a9f96c6c4e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558144511b202979dc4ee6b9195dc6fa') in 0.040188 seconds 
+  Import took 0.044503 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001919 seconds.
+Registered in 0.009436 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
+- Completed reload, in  0.768 seconds
 Domain Reload Profiling:
-	ReloadAssembly (811ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (768ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (662ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (607ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
+			SetupTypeCache (212ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (234ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (219ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (156ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1471 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.8 MB.
+Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.5 MB.
+System memory in use after: 120.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1988.
-Total: 2.709500 ms (FindLiveObjects: 0.175800 ms CreateObjectMapping: 0.033400 ms MarkObjects: 2.481000 ms  DeleteObjects: 0.017600 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2145.
+Total: 3.123600 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.036200 ms MarkObjects: 2.556400 ms  DeleteObjects: 0.340700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -501,60 +1831,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.025856 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
-Domain Reload Profiling:
-	ReloadAssembly (786ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (607ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (227ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (152ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1471 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.8 MB.
+Received Import Request.
+  Time since last request: 78.291361 seconds.
+  path: Assets/Yurowm/Demo/Scripts/Actions.cs
+  artifactKey: Guid(a85c5e349cb17df4b85883ea088c2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yurowm/Demo/Scripts/Actions.cs using Guid(a85c5e349cb17df4b85883ea088c2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8575c912eacdce1bee1b230c17ce6d7d') in 0.010146 seconds 
+  Import took 0.013908 seconds .
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1990.
-Total: 2.745200 ms (FindLiveObjects: 0.158600 ms CreateObjectMapping: 0.032700 ms MarkObjects: 2.537200 ms  DeleteObjects: 0.015400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
